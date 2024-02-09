@@ -12,6 +12,7 @@ import { Button } from "./ui/button"
 
 
 
+
 const styles = {
   buttonContainer: {
     display: 'flex',
@@ -168,7 +169,8 @@ const CourseInfo = () => {
                         <div className="card-body">
                           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div className="col-span-1">
-                              <img src="programdetailsimg/program_d1.png" alt="image here" className=" p-3 mx-auto w-45 h-45 object-cover" />
+                          
+                              <Image src="programdetailsimg/program_d1.png" alt="image here" className=" p-3 mx-auto w-45 h-45 object-cover" />
                             </div>
 
                             <div className="col-span-1">
@@ -195,7 +197,7 @@ const CourseInfo = () => {
                     <div className="col-span-2">
                       <div className="card">
                         <div className="card-body">
-                          <img src="programdetailsimg/program_d2.png" alt="program image" className="w-full object-cover mt-12 mx-auto" />
+                          <Image src="programdetailsimg/program_d2.png" alt="program image" className="w-full object-cover mt-12 mx-auto" />
                         </div>
                       </div>
                     </div>

@@ -4,6 +4,7 @@ import Courses from "./courses"
 import { Button } from "./ui/button"
 import Container from "./ui/container"
 import scope_career from "./scope_career"
+import Image from 'next/image';
 
 
 const CourseSection = () => {
@@ -60,7 +61,7 @@ const CourseSection = () => {
                                 <div className="card">
                                     <div className="card-body d-flex justify-content-center align-items-center">
                                         <div>
-                                            <img src="Scope&Career/Scope1.png" alt="image here" width="300" height="300" />
+                                            <Image src="Scope&Career/Scope1.png" alt="image here" width="300" height="300" />
                                         </div>
                                     </div>
                                 </div>
@@ -75,7 +76,7 @@ const CourseSection = () => {
                                 <div className="card">
                                     <div className="card-body">
                                         <div>
-                                            <img src="Scope&Career/Scope2.png " alt="image here" width="300" height="300" />
+                                            <Image src="Scope&Career/Scope2.png " alt="image here" width="300" height="300" />
                                         </div>
                                     </div>
                                 </div>
@@ -126,7 +127,7 @@ const CourseSection = () => {
                                 <div className="card">
                                     <div className="card-body">
                                         <div>
-                                            <img src="Scope&Career/Scope3.png " alt="image here" width="300" height="300" />
+                                            <Image src="Scope&Career/Scope3.png " alt="image here" width="300" height="300" />
                                         </div>
                                     </div>
                                 </div>
@@ -140,7 +141,7 @@ const CourseSection = () => {
                                 <div className="card">
                                     <div className="card-body">
                                         <div>
-                                            <img src="/Scope&Career/Scope4.png" alt="image here" width="300" height="300" />
+                                            <Image src="/Scope&Career/Scope4.png" alt="image here" width="300" height="300" />
                                         </div>
                                     </div>
                                 </div>

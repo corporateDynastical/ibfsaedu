@@ -3,6 +3,8 @@ import { FaWhatsapp } from "react-icons/fa";
 import Link from 'next/link'
 import { motion } from "framer-motion"
 import React from 'react'
+import Image from 'next/image';
+
 
 
 
@@ -160,7 +162,7 @@ className="w-full h-full object-cover mt-12 ml-auto"
                     </ul>
                   </div>
                   <div>
-                    <img src="Curriculum01.png " alt="image here" />
+                    <Image src="Curriculum01.png " alt="image here" />
                   </div>
                 </div>
               </div>

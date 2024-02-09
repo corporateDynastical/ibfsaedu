@@ -3,6 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import Link from 'next/link'
 import { motion } from "framer-motion"
 import React from 'react'
+import Image from 'next/image';
 
 
 
@@ -65,7 +66,7 @@ className="w-full h-full object-cover mt-12 ml-auto"
         <div className="container-fluid py-5">
 
           <div className="relative">
-            <img src="Growth/Growth3.png" alt="image here" className="w-1/2 right-20" />
+            <Image src="Growth/Growth3.png" alt="image here" className="w-1/2 right-20" />
             <p className="  absolute top-1/2 transform -translate-x-1/2 -translate-y-1/2  px-4 py-2 text-success" style={{ marginLeft: '200px', textDecoration: 'underline' }}> Growth Path</p>
           </div>
           <div className="row">
@@ -81,7 +82,7 @@ className="w-full h-full object-cover mt-12 ml-auto"
                       {/* Regional Head */}
                       <div style={{ marginLeft: '1000px' }}>
                         <h4 >
-                          <img src="Growth/Growth1.png" alt="image here" className="img-fluid p-3" style={{ width: '200px', height: '200px' }} />
+                          <Image src="Growth/Growth1.png" alt="image here" className="img-fluid p-3" style={{ width: '200px', height: '200px' }} />
                         </h4>
                       </div>
 
@@ -132,7 +133,7 @@ className="w-full h-full object-cover mt-12 ml-auto"
                       */}
                       {/* bottom */}
                       <div className="relative"  >
-                        <img src="Growth/Growth3.png" alt="image here" className=" p-3  w-1/2 right-10" />
+                        <Image src="Growth/Growth3.png" alt="image here" className=" p-3  w-1/2 right-10" />
                         <p className=" absolute top-1/2 transform -translate-x-1/2 -translate-y-1/2  px-4 py-2 text-success" style={{ marginLeft: '200px', textDecoration: 'underline' }}>RECRUITMENT PARTNERS</p>
                       </div>
 

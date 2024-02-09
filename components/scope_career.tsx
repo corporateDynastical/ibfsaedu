@@ -1,6 +1,6 @@
 "use client"
 import { motion } from "framer-motion";
-
+import Image from 'next/image';
 
 const scope_career = () => {
     return (
@@ -20,7 +20,7 @@ const scope_career = () => {
                 <div className="row">
                   <div className="col-md-5 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay={600}>
                     <div className="Program-title">
-                      <img src="assets/img/scope_career/Scope_1.png" className="card-img-top" alt="..." style={{height: '300px'}} />
+                      <Image src="assets/img/scope_career/Scope_1.png" className="card-img-top" alt="..." style={{height: '300px'}} />
                     </div>
                   </div>
                   <div className="col-md-7 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay={100} style={{height: '250px'}}>
@@ -50,12 +50,12 @@ const scope_career = () => {
                   </div>
                   <div className="col-md-5 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay={600}>
                     <div className="Program-title">
-                      <img src="assets/img/scope_career/Scope_2.png" className="card-img-top" alt="..." style={{height: '300px'}} />
+                      <Image src="assets/img/scope_career/Scope_2.png" className="card-img-top" alt="..." style={{height: '300px'}} />
                     </div>
                   </div>
                   <div className="col-md-5 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay={600}>
                     <div className="Program-title">
-                      <img src="assets/img/scope_career/Scope_3.png" className="card-img-top" alt="..." style={{height: '300px'}} />
+                      <Image src="assets/img/scope_career/Scope_3.png" className="card-img-top" alt="..." style={{height: '300px'}} />
                     </div>
                   </div>
                   <div className="col-md-7 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay={100} style={{height: '250px'}}>
@@ -83,7 +83,7 @@ const scope_career = () => {
                   </div>
                   <div className="col-md-5 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay={600}>
                     <div className="Program-title">
-                      <img src="assets/img/scope_career/Scope_4.png" className="card-img-top" alt="..." style={{height: '200px'}} />
+                      <Image src="assets/img/scope_career/Scope_4.png" className="card-img-top" alt="..." style={{height: '200px'}} />
                     </div>
                   </div>
                 </div>
